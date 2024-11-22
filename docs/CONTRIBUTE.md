@@ -15,6 +15,7 @@
 ```
 git clone https://github.com/2byrds/vlei-verifier.git
 ```
+use your url of your forked repo in place of `https://github.com/2byrds/vlei-verifier.git`
 * Confirm you are starting from the main branch
 ```
 git status
@@ -37,12 +38,12 @@ git add docs
 ![git add the files](image-4.png)
 
 ```
-git commit -s -S -m"Added docs folder and CONTRIBUTE guide"
+git commit -s -S -m "Added docs folder and CONTRIBUTE guide"
 ```
 ![commit changes to git](image-5.png)
 
 # Push the changes to your fork
-```git push 2byrds```
+```git push origin docs/contrib_guide```
 ![push changes to GitHub](image-6.png)
 
 # Create a pull request
@@ -63,4 +64,4 @@ git commit -s -S -m"Added docs folder and CONTRIBUTE guide"
 * Note there are several automated checks listed on the PR overview that must all pass
 
 # Merge and Issue update
-* Once approved the pull request will be merged and the issue can be update/close
+* Once approved the pull request will be merged and the issue can be updated/closed
